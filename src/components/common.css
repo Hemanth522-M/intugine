@@ -1,0 +1,284 @@
+.main-paper {
+    padding: 12px;
+}
+
+.heading {
+    float: left;
+    margin-left: 150px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.side-nav {
+    float: right;
+    margin-top: 16px;
+    display: inline-flex;
+}
+
+.side-headings {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.images {
+    background-color: #e3e8e6;
+    padding: 6px;
+    border-radius: 18px;
+}
+
+.downicon {
+    font-size: xx-large;
+    margin: 8px;
+}
+
+.boxes {
+    display: inline-flex;
+}
+
+#item {
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+    background-color:royalblue;
+}
+
+#items {
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+    background-color: lightblue;
+}
+
+.name {
+    padding: 10px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+.names {
+    padding: 10px;
+    color: blue;
+    display: block;
+    font-weight: bold;
+}
+
+#left {
+    margin: 10px 0px 10px 52px;
+    border: 1px solid lightblue;
+}
+
+#right {
+    margin: 0px 0px 0px 30px;
+}
+
+.main {
+    width: 100%;
+    display: inline-flex;
+}
+
+.left-box {
+    width: 40%;
+    border: 1px solid lightblue;
+    margin: 20px;
+    height: 500px;
+
+}
+
+.right-box {
+    width: 70%;
+    border: 1px solid lightblue;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+.inside-name {
+    margin: 4px 20px;
+    font-size: 10px;
+    color: #a4a2a2;
+    display: inline-flex;
+}
+
+.inside-names {
+    margin: 14px;
+    font-size: 10px;
+    color: #a4a2a2;
+}
+
+.data {
+    height: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.data::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.data::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.data::-webkit-scrollbar-thumb {
+    background:blue; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.data::-webkit-scrollbar-thumb:hover {
+    background: #009eb3; 
+}
+
+.mapData {
+    border: 1px solid #e1e6e9;
+    padding: 20px;
+    margin: 10px;
+}
+
+.inside-data {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.out-delivery {
+    font-weight: 500;
+    font-size: 12px;
+    color: blue;
+}
+
+.delivery {
+    font-weight: 500;
+    font-size: 12px;
+    color: green;
+}
+
+.Undelivery {
+    font-weight: 500;
+    font-size: 12px;
+    color: red;
+}
+
+.transit {
+    font-weight: 500;
+    font-size: 12px;
+    color: blueviolet;
+}
+
+.number {
+    color: white;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.numbers {
+    color: blue;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.right-heading {
+    display: inline-flex;
+    width: 100%;
+}
+
+.icon {
+    color: blue;
+    margin-left: 10px;
+    margin-top: -4px;
+    font-size: 5px;
+}
+
+.left-icon {
+    width: 32px;
+    padding: 10px;
+    border-radius: 36px;
+    background-color: lightblue;
+}
+
+.dashed-lines {
+    position: absolute;
+    top: 324px;
+    /* bottom: -20px; */
+    left: 4%;
+    border-left: 2px dashed blue;
+}
+
+.dots {
+    margin: 36px 20px 10px -10px;
+    display: block;
+    border-radius: 39px;
+    /* padding: 5px; */
+    width: 18px;
+    height: 18px;
+    background-color: #27b9e9;
+}
+
+.hr {
+    margin-top: -18px;
+    margin-left: 12px;
+    width: 36px;
+    color: lightskyblue;
+}
+.left-text1 {
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: -30px;
+    border: 1px solid #e1e6e9;
+    background-color: #d9e7ec;
+}
+
+.left-text {
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: -30px;
+    border: 1px solid #e1e6e9;
+}
+
+@media (min-width: 700px) and (max-width: 1280px) {
+    .left-text1 {
+        display: block;
+        width: 320px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: -30px;
+        border: 1px solid #e1e6e9;
+        background-color: #d9e7ec;
+    }
+    
+    .left-text {
+        display: block;
+        width: 320px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: -30px;
+        border: 1px solid #e1e6e9;
+    }
+}
+
+.left-element {
+    font-size: 14px;
+    color: red
+}
+
+.left-elements {
+    font-size: 14px;
+}
+
+.icon-des {
+    padding: 10px 5px;
+}
+
+.map-inside {
+    display: inline-flex;
+    width: 100%;
+}
